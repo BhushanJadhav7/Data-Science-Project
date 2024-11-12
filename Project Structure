@@ -1,0 +1,41 @@
+personalized-nutrition-recommendations/
+│
+├── data/
+│   ├── raw/
+│   │   └── nutrition_data.csv
+│   ├── processed/
+│   │   └── cleaned_data.csv
+│   └── external/
+│       └── additional_datasets.csv
+│
+├── notebooks/
+│   ├── 01-data-exploration.ipynb
+│   ├── 02-feature-engineering.ipynb
+│   └── 03-model-training.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   └── api/
+│       ├── __init__.py
+│       └── app.py
+│
+├── models/
+│   └── final_model.pkl
+│
+├── config/
+│   └── config.yaml
+│
+├── utils/
+│   └── helpers.py
+│
+├── tests/
+│   └── test_model.py
+│
+├── requirements.txt
+├── Dockerfile
+├── .gitignore
+├── README.md
+└── LICENSE
