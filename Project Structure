@@ -2,11 +2,13 @@ personalized-nutrition-recommendations/
 │
 ├── data/
 │   ├── raw/
-│   │   └── nutrition_data.csv
+│   │   ├── usda_food_composition.csv
+│   │   ├── usda_nutrient_data.csv
+│   │   └── usda_food_description.csv
 │   ├── processed/
-│   │   └── cleaned_data.csv
+│   │   └── cleaned_nutrient_data.csv
 │   └── external/
-│       └── additional_datasets.csv
+│       └── additional_data.csv
 │
 ├── notebooks/
 │   ├── 01-data-exploration.ipynb
@@ -14,12 +16,10 @@ personalized-nutrition-recommendations/
 │   └── 03-model-training.ipynb
 │
 ├── src/
-│   ├── __init__.py
 │   ├── data_preprocessing.py
 │   ├── feature_engineering.py
 │   ├── model_training.py
 │   └── api/
-│       ├── __init__.py
 │       └── app.py
 │
 ├── models/
@@ -37,5 +37,5 @@ personalized-nutrition-recommendations/
 ├── requirements.txt
 ├── Dockerfile
 ├── .gitignore
-├── README.md
-└── LICENSE
+└── README.md
+
